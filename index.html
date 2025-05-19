@@ -37,7 +37,7 @@
   <script>
     async function fetchSignals() {
       try {
-        const res = await fetch('https://TU_BACKEND_URL/api/signals');
+        const res = await fetch('https://calls-by-jamddmaj.onrender.com/api/signals');
         if (!res.ok) throw new Error('Error al obtener señales');
         const data = await res.json();
 
