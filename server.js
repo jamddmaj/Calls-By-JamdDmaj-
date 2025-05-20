@@ -68,6 +68,23 @@ async function getSignals() {
     return [];
   }
 }
+app.get('/api/signals', async (req, res) => {
+  const signals = [
+    {
+      token: 'BTC',
+      type: 'Compra',
+      target: '30000 USDT',
+      date: new Date().toISOString(),
+    },
+    {
+      token: 'ETH',
+      type: 'Venta',
+      target: '2000 USDT',
+      date: new Date().toISOString(),
+    },
+  ];
+  res.json(signals);
+});
 
 // Endpoint para obtener señales reales
 app.get('/api/signals', async (req, res) => {
