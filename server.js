@@ -9,8 +9,8 @@ app.use(cors());
 
 // Inicializar Binance API con tus claves
 const binance = new Binance().options({
-  APIKEY: '1Lx8z7ImiJvLsKdWjfzEKErNM9dfaQGwB9jzLeTvLW9KHOyVHoBXJQtTChBKPl1C',
-  APISECRET: 'DRAYFZPeKqryEVK8MVzoq2ZbKRrc9mxU4zR7aIyA3crpmJ21yYRMSTR1sYRN aZ74',
+  APIKEY: 'NCmJ5D44VtOf8vjQdz4VTPfOKP0NPBOdhYi587IFlzJmKN2vrEY9pLkQpMaIrhrw',
+  APISECRET: 'DRAYFZPeKqryEVK8MVzoq2ZbKRrc9mxU4zR7aIyA3crpmJ21yYRMsTR1sYRNaZ74',
   useServerTime: true,
   recvWindow: 60000,
 });
