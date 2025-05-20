@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Señales de Trading Automáticas</title>
   <style>
+    /* Botón flotante lateral izquierdo */
+#sideButton {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  font-size: 16px;
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
+#sideButton:hover {
+  background-color: #45a049;
+}
     body {
       font-family: Arial, sans-serif;
       margin: 30px;
